@@ -746,6 +746,11 @@ ul li a:hover{
     *{
         overflow-x: hidden;
     }
+
+    #defilement{
+        width: 100px;
+        height: 150px;
+    }
     #caroussel{
         width: 100px;
         overflow:hidden;
