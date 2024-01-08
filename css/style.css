@@ -656,6 +656,9 @@ body{
     width: 170px;
 }
 @media (max-width:765px){
+    *{
+        overflow-x: hidden;
+    }
     .about{
         padding: 0;
     }
@@ -740,6 +743,9 @@ ul li a:hover{
 }
 
 @media(max-width: 740px){
+    *{
+        overflow-x: hidden;
+    }
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
@@ -752,6 +758,9 @@ ul li a:hover{
 }
 
 @media(max-width: 555px){
+    *{
+        overflow-x: hidden;
+    }
     .footer-col{
         width: 100%;
     }
