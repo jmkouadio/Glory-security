@@ -742,6 +742,34 @@ ul li a:hover{
     color: #fb911f;
 }
 
+@media screen and(max-width:980px) {
+    *{
+        overflow-x: hidden;
+    }
+    #caroussel{
+        width: 550px;
+        overflow:hidden;
+       
+        height: 200px;
+    }
+    
+    #caroussel .images{
+        display: flex;
+        animation-duration: 10s;
+        animation-name: mesImages;
+        animation-iteration-count: infinite;
+    }
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer-col h4::before{
+        all: unset;
+    }
+}
+
 @media(max-width: 740px){
     *{
         overflow-x: hidden;
