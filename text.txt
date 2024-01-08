@@ -1,0 +1,83 @@
+<!-- Section Book Start -->
+    <section class="book" id="book">
+      <div class="container">
+
+        <div class="main-text">
+          <h1><span>E</span>crivez-nous</h1>
+        </div>
+        
+        <div class="row">
+
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/student.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <!-- Button trigger modal -->
+
+            <form action="#" class="my-2">
+
+              <input type="text" class="form-control" placeholder="Nom" required><br>
+           
+              <input type="email" class="form-control" placeholder="email" required><br>
+            
+              <textarea class="form-control" rows="5" name="text" placeholder="Votre message"></textarea>
+              <input type="submit" value="Envoyer" class="submit" required>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Section Book End -->
+
+
+
+    
+Développez Votre Avenir avec Notre Formation Continue en Installation d'Équipements de Sécurité
+
+Vous cherchez à donner un élan prometteur à votre carrière ? Rejoignez-nous dans une aventure passionnante au cœur de la sécurité moderne ! Notre programme de formation continue en installation d'équipements de sécurité offre une opportunité unique aux jeunes professionnels de se positionner dans un secteur en pleine expansion.
+
+Pourquoi Choisir Notre Formation ?
+
+Expertise Avancée : Bénéficiez de l'expérience et du savoir-faire de professionnels chevronnés du domaine de la sécurité. Notre équipe pédagogique est composée d'experts passionnés, prêts à partager leurs connaissances approfondies.
+
+Technologies de Pointe : Explorez les dernières avancées en matière d'équipements de sécurité. Notre programme vous expose aux technologies les plus récentes, vous positionnant en tant que spécialiste avant-gardiste dans le domaine.
+
+Pratique Réelle : Mettez vos connaissances en pratique dès le premier jour. Notre formation intègre des sessions pratiques sur l'installation d'équipements réels, vous préparant à relever les défis du terrain.
+
+Opportunités de Réseautage : Établissez des liens avec des professionnels établis et des entreprises du secteur de la sécurité. Notre réseau vous ouvre les portes vers des opportunités de carrière et des collaborations fructueuses.
+
+Perspectives de Carrière Prometteuses : La demande croissante pour des professionnels qualifiés en sécurité crée des opportunités infinies. Notre formation vous positionne en tant que candidat recherché, prêt à répondre aux besoins du marché.
+
+Comment Participer ?
+
+Rejoignez-nous et transformez votre passion pour la sécurité en une carrière enrichissante. Inscrivez-vous dès maintenant à notre programme de formation continue en installation d'équipements de sécurité. Faites le premier pas vers un avenir où la sécurité devient une compétence précieuse et où chaque installation est une réalisation professionnelle. Ne manquez pas l'opportunité de façonner un avenir plus sûr dès aujourd'hui !
+
+User
+génère moi un log texte qui incite les gens à venir faire une formation continue pour les jeunes à l'installation des équipements de sécurité
+ChatGPT
+Investissez dans Votre Avenir : Formation Continue en Installation d'Équipements de Sécurité
+
+Vous êtes passionné par le monde de la sécurité et souhaitez transformer cette passion en une carrière enrichissante ? Notre programme de formation continue en installation d'équipements de sécurité est la clé pour ouvrir les portes vers un avenir professionnel prometteur.
+
+Pourquoi Choisir Notre Formation ?
+
+Expertise de Pointe : Acquérez des compétences de pointe auprès de formateurs chevronnés, experts dans le domaine de la sécurité. Nous vous offrons l'opportunité de vous immerger dans un environnement d'apprentissage dynamique, où l'expertise pratique rencontre la connaissance approfondie.
+
+Technologies Avancées : Restez à la pointe des technologies émergentes en matière de sécurité. Notre programme intègre les dernières avancées pour vous préparer à relever les défis complexes du secteur.
+
+Expérience Pratique : Mettez immédiatement en pratique ce que vous apprenez. Nos sessions pratiques vous plongent dans des mises en situation réelles d'installation d'équipements de sécurité, vous préparant ainsi à une transition fluide vers le terrain professionnel.
+
+Opportunités de Réseautage : Élargissez votre réseau professionnel en interagissant avec des experts de l'industrie et d'autres passionnés de sécurité. Les opportunités de réseautage offertes par notre programme peuvent être le catalyseur de collaborations fructueuses et d'opportunités professionnelles.
+
+Perspectives de Carrière Prometteuses : La demande croissante pour des professionnels qualifiés en sécurité crée un marché dynamique. Notre formation vous positionne comme un acteur compétent, prêt à répondre aux besoins de ce secteur en expansion.
+
+Comment Vous Joindre à Nous ?
+
+Ne laissez pas passer l'occasion de faire de votre passion pour la sécurité le fondement d'une carrière épanouissante. Inscrivez-vous dès aujourd'hui à notre programme de formation continue en installation d'équipements de sécurité. Embarquez pour un voyage où chaque leçon vous rapproche d'un avenir professionnel sécurisé et prometteur.
+
+Soyez l'Architecte de Votre Avenir en Sécurité !
