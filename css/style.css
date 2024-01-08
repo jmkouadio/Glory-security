@@ -746,6 +746,19 @@ ul li a:hover{
     *{
         overflow-x: hidden;
     }
+    #caroussel{
+        width: 550px;
+        overflow:hidden;
+       
+        height: 200px;
+    }
+    
+    #caroussel .images{
+        display: flex;
+        animation-duration: 10s;
+        animation-name: mesImages;
+        animation-iteration-count: infinite;
+    }
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
