@@ -92,29 +92,96 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <h1 class="modal-title fs-4 text-success font-weight-bold" id="exampleModalLabel">DEMANDE D'INTERVENTION</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form action="/?gad_source=1&amp;gclid=Cj0KCQjwtJKqBhCaARIsAN_yS_k1ETjmwJlXwn0ly9Zwmo01nyKEHVEBfGYXRz6ABsnDD1fQDG-6J_QaAhTTEALw_wcB#wpcf7-f124-o2" method="post" class="wpcf7-form init use-floating-validation-tip" novalidate="novalidate" data-status="init">
-          <div style="display: none;">
-          <input type="hidden" name="_wpcf7" value="124">
-          <input type="hidden" name="_wpcf7_version" value="5.4.1">
-          <input type="hidden" name="_wpcf7_locale" value="fr_FR">
-          <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f124-o2">
-          <input type="hidden" name="_wpcf7_container_post" value="0">
-          <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+        <form action="">
+          
+          <fieldset class="text-center font-weight-bold text-danger">Tous les champs sont obligatoire</fieldset>
+          <label class="form-label border-info" for="villes">Sélectionnez une ville :</label>
+          <select id="villes" name="villes" class="form-select border-info">
+              <option value="abidjan">Abidjan</option>
+              <option value="aboisso">Aboisso</option>
+              <option value="adiake">Adiaké</option>
+              <option value="adzope">Adzopé</option>
+              <option value="agboville">Agboville</option>
+              <option value="alepe">Alépé</option>
+              <option value="anyama">Anyama</option>
+              <option value="bingerville">Bingerville</option>
+              <option value="bocanda">Bocanda</option>
+              <option value="bongouanou">Bongouanou</option>
+              <option value="bonoua">Bonoua</option>
+              <option value="bouafle">Bouaflé</option>
+              <option value="bouake">Bouaké</option>
+              <option value="boundiali">Boundiali</option>
+              <option value="dabakala">Dabakala</option>
+              <option value="dabou">Dabou</option>
+              <option value="daloa">Daloa</option>
+              <option value="danane">Danané</option>
+              <option value="daoukro">Daoukro</option>
+              <option value="diegonoufla">Diego-Noufla</option>
+              <option value="divo">Divo</option>
+              <option value="duekoue">Duékoué</option>
+              <option value="fresco">Fresco</option>
+              <option value="gagnoa">Gagnoa</option>
+              <option value="grandbassam">Grand-Bassam</option>
+              <option value="grandlahou">Grand-Lahou</option>
+              <option value="guiglo">Guiglo</option>
+              <option value="issia">Issia</option>
+              <option value="katiola">Katiola</option>
+              <option value="korhogo">Korhogo</option>
+              <option value="lakota">Lakota</option>
+              <option value="man">Man</option>
+              <option value="mankono">Mankono</option>
+              <option value="minignan">Minignan</option>
+              <option value="odienne">Odienné</option>
+              <option value="oume">Oumé</option>
+              <option value="sakassou">Sakassou</option>
+              <option value="sanpedro">San Pedro</option>
+              <option value="sassandra">Sassandra</option>
+              <option value="seguela">Séguéla</option>
+              <option value="sinfra">Sinfra</option>
+              <option value="soubre">Soubré</option>
+              <option value="tabou">Tabou</option>
+              <option value="tanda">Tanda</option>
+              <option value="tiassale">Tiassalé</option>
+              <option value="touba">Touba</option>
+              <option value="toulepleu">Toulepleu</option>
+              <option value="toumodi">Toumodi</option>
+              <option value="vavoua">Vavoua</option>
+              <option value="yakasseattobrou">Yakassé-Attobrou</option>
+              <option value="yamoussoukro">Yamoussoukro</option>
+              <option value="zanouala">Zaranou</option>
+              <option value="zuénoula">Zuénoula</option>
+          </select>
+          
+         
+          <div class="form-group my-3">
+              <input type="text" name="customer-department" size="40" class="required form-control border-info" id="modalDept" aria-required="true" aria-invalid="true" placeholder="Commune" required>
           </div>
-          <fieldset class="text-uppercase text-center font-weight-bold">demande d'intervention</fieldset>
-          <div class="form-group"><span class="wpcf7-form-control-wrap customer-department"><input type="text" name="customer-department" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="modalDept" aria-required="true" aria-invalid="false" placeholder="Département"></span></div>
-          <p><span class="wpcf7-form-control-wrap customer-subject"><span class="wpcf7-form-control wpcf7-radio" id="modalSubject"><span class="wpcf7-list-item first"><label><input type="radio" name="customer-subject" value="Pour une installation"><span class="wpcf7-list-item-label">Pour une installation</span></label></span><span class="wpcf7-list-item last"><label><input type="radio" name="customer-subject" value="Pour un dépannage"><span class="wpcf7-list-item-label">Pour un dépannage</span></label></span></span></span></p>
-          <div id="modalUserInfoGroup" class="form-group"><span class="wpcf7-form-control-wrap customer-name"><input type="text" name="customer-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="modalCompleteName" aria-required="true" aria-invalid="false" placeholder="Nom complet"></span><span class="wpcf7-form-control-wrap customer-society"><input type="text" name="customer-society" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="modalSociety" aria-required="true" aria-invalid="false" placeholder="Société"></span><span class="wpcf7-form-control-wrap customer-email"><input type="email" name="customer-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" id="modalEmail" aria-required="true" aria-invalid="false" placeholder="E-mail"></span><span class="wpcf7-form-control-wrap customer-phone"><input type="text" name="customer-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="modalPhone" aria-required="true" aria-invalid="false" placeholder="Téléphone"></span></div>
-          <p><input type="submit" value="valider" class="wpcf7-form-control wpcf7-submit text-uppercase btn box-shadow1" id="modalFormSubmit"><span class="ajax-loader"></span></p>
-          <div class="wpcf7-response-output" aria-hidden="true"></div></form>
+
+          <div class="form-group my-3">
+            <input type="text" name="customer-department" size="40" class="required form-control border-info" id="modalDept" aria-required="true" aria-invalid="true" placeholder="Votre nom complet" required>
+        </div>
+
+        <div class="form-group my-3">
+          <input type="text" name="customer-department" size="40" class="required form-control border-info" id="modalDept" aria-required="true" aria-invalid="true" placeholder="Société" required>
+      </div>
+
+      <div class="form-group my-3">
+        <input type="text" name="customer-department" size="40" class="required form-control border-info" id="modalDept" aria-required="true" aria-invalid="true" placeholder="Email" required>
+    </div>
+
+    <div class="form-group my-3">
+      <input type="text" name="customer-department" size="40" class="required form-control border-info" id="modalDept" aria-required="true" aria-invalid="true" placeholder="Téléphone" required>
+  </div>
+        
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        <input type="submit" value="Envoyer" class="btn btn-primary"></input>
+      </form>
       </div>
     </div>
   </div>
@@ -137,6 +204,7 @@
             <img src="./images/paint/vol house.jpg" alt="">
             <img src="./images/paint/cam-xiomi.jpg" alt="">
             <img src="./images/paint/pack.jpg" alt="">
+            
           </div>
          
         </div>
