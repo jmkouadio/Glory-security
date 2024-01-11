@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
 	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
+	font-family: FS Kim,Georgia,serif;
+    font-size:20px;
 }
 
 
@@ -12,8 +13,10 @@ body{
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
-}
+    font-family: FS Kim,Georgia,serif
+    
+} 
+
 
 /* Navbar Start */
 #navbar{
@@ -330,6 +333,69 @@ body{
 
 
 
+.temoignage{
+   
+    width: 100%;
+ 
+}
+
+.temoignage .contenu{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.temoignage .contenu .box{
+    width: 340px;
+    margin: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.temoignage .contenu .box .imbox{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.temoignage .contenu .box .imbox img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.temoignage .contenu .box .text{
+    text-align: center;
+    color: #000;
+    font-style: italic;
+}
+
+.temoignage .contenu .box .text h3{
+    color: #fb911f;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+
 /* Section Services Start */
 .services{
     background: #f9f9f9;
@@ -445,6 +511,41 @@ body{
 .about2 p{
     font-weight: 500;
 }
+
+.reveal{
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.reveal-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(1,.51,0,.44);
+}
+
+.reveal1{
+    opacity: 0;
+    transform: translateX(50px);
+}
+
+.reveal-visible1{
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s cubic-bezier(1,.51,0,.44);
+}
+
+.reveal2{
+    opacity: 0;
+    transform: translateX(-50px);
+}
+
+.reveal-visible2{
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s cubic-bezier(1,.51,0,.44);
+}
+
+
 
 
 
