@@ -445,17 +445,9 @@ body{
 .about2 .card{
     border-radius: 10px;
 }
-.about2 .card img{
-    border-radius: 10px;
+.info{
+    background-color:rgb(169,184,195);
 }
-.about2 h2{
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-.about2 p{
-    font-weight: 500;
-}
-
 
 
 

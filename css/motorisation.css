@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
 	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
+	font-family:  FS Kim,Georgia,serif;
 }
 
 
@@ -12,9 +12,46 @@ body{
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+    font-family:  FS Kim,Georgia,serif;
 }
 
+.reveal{
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.reveal-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(1,.51,0,.44);
+}
+
+.reveal1{
+    opacity: 0;
+    transform: translateX(50px);
+}
+
+.reveal-visible1{
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s cubic-bezier(1,.51,0,.44);
+}
+
+.reveal2{
+    opacity: 0;
+    transform: translateX(-50px);
+}
+
+.reveal-visible2{
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s cubic-bezier(1,.51,0,.44);
+}
+
+
+.info{
+    background-color:rgb(169,184,195);
+}
 /* Navbar Start */
 #navbar{
     background: #1b365f;
@@ -67,7 +104,7 @@ body{
 .home{
     width: 100%;
     height: 90vh;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(../images/moto4.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(../images/moto4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -77,7 +114,7 @@ body{
 }
 .home .content h5{
     color: white;
-    font-size: 38px;
+    font-size: 25px;
     font-weight: 550;
     text-shadow: 0px 1px 1px black;
 }
@@ -291,31 +328,6 @@ body{
 }
 /* Section Services End */
 
-
-
-
-
-/* Section Gallary Start */
-
-.gallary .card{
-    border-radius: 10px;
-    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
-    cursor: pointer;
-}
-.gallary .card img{
-    border-radius: 10px;
-    transition: 0.5s;
-}
-.gallary .card img:hover{
-    transform: scale(0.9);
-    
-}
-/* Section Gallary End */
-
-
-
-
-
 /* About Start */
 .about{
     padding: 10px;
@@ -334,6 +346,27 @@ body{
     letter-spacing: 1px;
 }
 .about p{
+    font-weight: 500;
+}
+
+/* About Start */
+.about1{
+    padding: 10px;
+   
+    background: #ffdcdc; 
+   
+}
+.about1 .card{
+    border-radius: 10px;
+}
+.about1 .card img{
+    border-radius: 10px;
+}
+.about1 h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about1 p{
     font-weight: 500;
 }
 

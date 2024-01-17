@@ -85,7 +85,7 @@ body{
 }
 .home .content h4{
     color: #f1e1c4;
-    font-size: 70px;
+    font-size: 45px;
     font-weight: 550;
     text-shadow: 0px 1px 1px black;
     margin-top: 5px;
@@ -538,7 +538,9 @@ body{
     transition: 1s cubic-bezier(1,.51,0,.44);
 }
 
-
+.info{
+    background-color:rgb(169,184,195);
+}
 
 
 @media (max-width:765px){
