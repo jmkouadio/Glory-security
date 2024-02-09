@@ -77,15 +77,16 @@ body{
     text-align: center;
     padding-top: 200px;
 }
+
 .home .content h5{
     color: white;
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 550;
     text-shadow: 0px 1px 1px black;
 }
 .home .content h4{
     color: #f1e1c4;
-    font-size: 45px;
+    font-size: 80px;
     font-weight: 550;
     text-shadow: 0px 1px 1px black;
     margin-top: 5px;

@@ -5,7 +5,7 @@ const options = {
     rootMargin: "0px",
     threshold: ratio
   }
-console.log('hello')
+
   const handleIntersect = function (entries, observer){
     entries.forEach(function(entry){
         if(entry.intersectionRatio > ratio){

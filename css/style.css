@@ -52,7 +52,7 @@ body{
     color: lightblue;
 }
 #navbar form button{
-    background: orange;
+    background: none;
     color: white;
     border: none;
 }
